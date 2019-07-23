@@ -18,7 +18,7 @@
           </ve-pie>
           <div class="a_total">
             <div class="font14 capitalize">{{$t('public.balance')}}</div>
-            <div class="font18">{{addressInfo.totalBalance}} NULS</div>
+            <div class="font18">{{addressInfo.totalBalance}} SAMO</div>
             <ul class="chart_title">
               <li><span></span>{{$t('public.consensusLocking')}} {{addressInfo.totalLocks}}</li>
               <li><span></span>{{$t('public.usablebalance')}} {{addressInfo.balances}}</li>
@@ -47,9 +47,9 @@
                   class="fr">{{addressInfo.txCount}}</span></li>
           <li class="tabs_infos capitalize">{{$t('public.address')+$t('public.type')}}<span class="fr">{{$t('addressType.'+addressInfo.type)}}</span>
           </li>
-          <li class="tabs_infos capitalize">{{$t('addressList.addressList1')}}<span class="fr">{{addressInfo.totalIn}} NULS</span>
+          <li class="tabs_infos capitalize">{{$t('addressList.addressList1')}}<span class="fr">{{addressInfo.totalIn}} SAMO</span>
           </li>
-          <li class="tabs_infos capitalize">{{$t('addressList.addressList2')}}<span class="fr">{{addressInfo.totalOut}} NULS</span>
+          <li class="tabs_infos capitalize">{{$t('addressList.addressList2')}}<span class="fr">{{addressInfo.totalOut}} SAMO</span>
           </li>
         </ul>
       </div>
@@ -84,13 +84,13 @@
                 <span>{{ $t('type.'+scope.row.type) }}</span>
               </template>
             </el-table-column>
-            <el-table-column :label="$t('public.amount')+'(NULS)'" width="170" align="left">
+            <el-table-column :label="$t('public.amount')+'(SAMO)'" width="170" align="left">
               <template slot-scope="scope">{{ scope.row.values }}</template>
             </el-table-column>
-            <el-table-column :label="$t('public.balance')+'(NULS)'" width="170" align="left">
+            <el-table-column :label="$t('public.balance')+'(SAMO)'" width="170" align="left">
               <template slot-scope="scope">{{ scope.row.balance }}</template>
             </el-table-column>
-            <el-table-column :label="$t('public.fee')+'(NULS)'" width="120" align="left">
+            <el-table-column :label="$t('public.fee')+'(SAMO)'" width="120" align="left">
               <template slot-scope="scope">{{ scope.row.fees }}</template>
             </el-table-column>
           </el-table>

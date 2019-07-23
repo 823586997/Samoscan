@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <el-menu :default-active="activedMenu($route.path)" mode="horizontal" active-text-color="#7db46d"
+    <el-menu :default-active="activedMenu($route.path)" mode="horizontal" active-text-color="#0000ff"
              @select="handleSelect">
       <el-menu-item index="home" class="font18 fw capitalize">{{$t('nav.home')}}</el-menu-item>
       <el-menu-item index="block" class="font18 fw capitalize">{{$t('nav.block')}}</el-menu-item>

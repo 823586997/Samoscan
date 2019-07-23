@@ -52,7 +52,7 @@
           </p>
         </li>
         <li class="tabs_infos fl">
-          <p>{{$t('public.bond')}}<span>{{nodeInfo.deposit/100000000}}<span class="fCN">&nbsp;NULS</span></span></p>
+          <p>{{$t('public.bond')}}<span>{{nodeInfo.deposit/100000000}}<span class="fCN">&nbsp;SAMO</span></span></p>
         </li>
         <li class="tabs_infos fl"><p>{{$t('consensusInfo.consensusInfo3')}}<span>{{nodeInfo.version}}</span></p></li>
         <li class="tabs_infos fl"><p>{{$t('public.proportion')}}<span>{{nodeInfo.commissionRate}}%</span></p></li>
@@ -65,19 +65,19 @@
             </el-tooltip>
             <span>
               {{nodeInfo.agentReward /100000000}}
-              <span class="fCN">&nbsp;NULS</span>
+              <span class="fCN">&nbsp;SAMO</span>
             </span>
           </p>
         </li>
         <li class="tabs_infos fl"><p>{{$t('public.participants')}}<span>{{nodeInfo.depositCount}}</span></p></li>
         <li class="tabs_infos fl">
           <p>{{$t('consensusInfo.consensusInfo16')}}
-            <span>{{nodeInfo.commissionReward/100000000}}<span class="fCN">&nbsp;NULS</span></span></p>
+            <span>{{nodeInfo.commissionReward/100000000}}<span class="fCN">&nbsp;SAMO</span></span></p>
         </li>
         <li class="tabs_infos fl"><p>{{$t('public.createTime')}}<span>{{nodeInfo.time}}</span></p></li>
         <li class="tabs_infos fl">
           <p>{{$t('public.allEntrust')}}<span>{{nodeInfo.totalDeposit/100000000}}<span
-                  class="fCN">&nbsp;NULS</span></span></p>
+                  class="fCN">&nbsp;SAMO</span></span></p>
         </li>
       </ul>
     </div>
@@ -97,7 +97,7 @@
               <el-table-column prop="txCount" :label="$t('public.transactionNo')" width="220"
                                align="left"></el-table-column>
               <el-table-column prop="size" :label="$t('public.size')" width="280" align="left"></el-table-column>
-              <el-table-column :label="$t('consensusInfo.consensusInfo8')+'(NULS)'" width="280" align="left">
+              <el-table-column :label="$t('consensusInfo.consensusInfo8')+'(SAMO)'" width="280" align="left">
                 <template slot-scope="scope">{{ scope.row.reward/100000000 }}</template>
               </el-table-column>
             </el-table>
@@ -150,7 +150,7 @@
               </el-table-column>
               <el-table-column prop="createTime" :label="$t('consensusInfo.consensusInfo12')" width="220"
                                align="left"></el-table-column>
-              <el-table-column :label="$t('public.amount')+'(NULS)'" width="220" align="left">
+              <el-table-column :label="$t('public.amount')+'(SAMO)'" width="220" align="left">
                 <template slot-scope="scope">{{ scope.row.amount/100000000 }}</template>
               </el-table-column>
             </el-table>
@@ -190,10 +190,10 @@
               <el-table-column :label="$t('public.join') +'/'+ $t('public.quit')" width="100" align="left">
                 <template slot-scope="scope">{{ scope.row.type === 0 ? $t('public.join'):$t('public.quit') }}</template>
               </el-table-column>
-              <el-table-column :label="$t('public.amount') +'(NULS)'" width="140" align="left">
+              <el-table-column :label="$t('public.amount') +'(SAMO)'" width="140" align="left">
                 <template slot-scope="scope">{{ scope.row.amount/100000000 }}</template>
               </el-table-column>
-              <el-table-column :label="$t('public.fee') +'(NULS)'" width="110" align="left">
+              <el-table-column :label="$t('public.fee') +'(SAMO)'" width="110" align="left">
                 <template slot-scope="scope">{{ scope.row.fee/100000000 }}</template>
               </el-table-column>
             </el-table>

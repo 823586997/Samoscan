@@ -102,7 +102,7 @@
   export default {
 
     data() {
-      this.colors = ['#7db46d','#7db46d', '#7db46d',
+      this.colors = ['#0000ff','#0000ff', '#0000ff',
         '#546570', '#c4ccd3'];
       this.chartSettings = {
         yAxisType: ['normal'],

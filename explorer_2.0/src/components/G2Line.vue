@@ -47,13 +47,13 @@
           crosshairs: {
             type: 'cross',
             style: {
-              fill: '#7db46d',
-              stroke: '#7db46d',
+              fill: '#0000ff',
+              stroke: '#0000ff',
             }
           }
         });
-        chart.line().position('year*value').color('#7db46d'); // 绘制曲线图
-        chart.point().position('year*value').color('#7db46d').size(3).shape('circle').style({lineWidth: 1});
+        chart.line().position('year*value').color('#0000ff'); // 绘制曲线图
+        chart.point().position('year*value').color('#0000ff').size(3).shape('circle').style({lineWidth: 1});
         chart.render();
       }
     }

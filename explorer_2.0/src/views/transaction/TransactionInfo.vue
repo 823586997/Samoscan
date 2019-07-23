@@ -11,13 +11,13 @@
       <h3 class="tabs_title tabs_header capitalize">{{$t('public.basicInfo')}}</h3>
       <ul class="ul" ref="menu">
         <li class="tabs_infos fl capitalize">
-          <p>{{$t('public.amount')}}<span>{{txInfo.value}}<span class="fCN">&nbsp;NULS</span></span></p>
+          <p>{{$t('public.amount')}}<span>{{txInfo.value}}<span class="fCN">&nbsp;SAMO</span></span></p>
         </li>
         <li class="tabs_infos fl capitalize"><p>{{$t('public.type')}}<span>{{$t('type.'+txInfo.type)}}</span></p></li>
         <li class="tabs_infos fl capitalize">
           <p>
             {{$t('public.fee')}}
-            <span v-if="contractInfo.length === 0">{{txInfo.fees}}<span class="fCN">&nbsp;NULS</span></span>
+            <span v-if="contractInfo.length === 0">{{txInfo.fees}}<span class="fCN">&nbsp;SAMO</span></span>
             <span v-if="contractInfo.length !== 0">
             {{contractInfo.totalFee}}
              <el-tooltip :content="contractInfo.totalFee+'('+$t('transactionInfo.transactionInfo0')+')'+'='
@@ -188,7 +188,7 @@
       <ul class="inputs fl scroll">
         <li class="font14" v-for="item in txInfo.coinFroms" :key="item.key">
           <span class="click" @click="toUrl('addressInfo',item.address)">{{item.address}}</span>
-          <label class="fr">{{item.value}}<span class="fCN"> NULS</span></label>
+          <label class="fr">{{item.value}}<span class="fCN"> SAMO</span></label>
         </li>
       </ul>
       <div class="arrow fl">
@@ -199,7 +199,7 @@
           <span class="click" @click="toUrl('addressInfo',item.address)">{{item.address}}</span>
           <label class="fr">
             {{item.value}}
-            <span class="fCN"> NULS
+            <span class="fCN"> SAMO
               <i class="iconfont yellow font12" :title="item.isShowInfo"
                  :class="item.lockTime > 0 ? 'icon-lock_icon':''"></i>
             </span>
@@ -215,7 +215,7 @@
             <ul class="inputs scroll">
               <li class="font14" v-for="item in txInfo.froms" :key="item.key">
                 <span class="click" @click="toUrl('addressInfo',item.address)">{{item.addresss}}</span>
-                <label class="fr">{{item.value}}<span class="fCN"> NULS</span></label>
+                <label class="fr">{{item.value}}<span class="fCN"> SAMO</span></label>
               </li>
             </ul>
           </div>
@@ -227,7 +227,7 @@
                 <span class="click" @click="toUrl('addressInfo',item.address)">{{item.addresss}}</span>
                 <label class="fr">
                   {{item.value}}
-                  <span class="fCN"> NULS<i class="iconfont yellow font12" :title="item.isShowInfo"
+                  <span class="fCN"> SAMO<i class="iconfont yellow font12" :title="item.isShowInfo"
                                             :class="item.lockTime > 0 ? 'icon-lock_icon':''"></i></span>
                 </label>
               </li>
@@ -491,7 +491,7 @@
       .arrow {
         width: 50px;
         text-align: center;
-        color: @Ncolour;
+        color: @Ccolour;
         line-height: 40px;
       }
     }

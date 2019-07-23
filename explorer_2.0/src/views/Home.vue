@@ -89,7 +89,7 @@
 
   export default {
     data() {
-      this.colors = ['#7db46d', '#7db46d'];
+      this.colors = ['#0000ff', '#0000ff'];
       this.yearSettings = {
         yAxisType: ['percent'],
         labelMap: {
@@ -353,7 +353,7 @@
           text-align: left;
         }
         &:focus {
-          border-color: @Ncolour;
+          border-color: @Ccolour;
         }
       }
       .el-input__suffix {

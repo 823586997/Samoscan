@@ -43,10 +43,10 @@
             <el-table-column :label="$t('public.type')" width="180" align="left">
               <template slot-scope="scope"><span class="capitalize">{{ $t('type.'+scope.row.type) }}</span></template>
             </el-table-column>
-            <el-table-column :label="$t('public.amount')+ '(NULS)'" width="160" align="left">
+            <el-table-column :label="$t('public.amount')+ '(SAMO)'" width="160" align="left">
               <template slot-scope="scope">{{ scope.row.value }}</template>
             </el-table-column>
-            <el-table-column :label="$t('public.fee')+ '(NULS)'" width="160" align="left">
+            <el-table-column :label="$t('public.fee')+ '(SAMO)'" width="160" align="left">
               <template slot-scope="scope">{{ scope.row.fees }}</template>
             </el-table-column>
           </el-table>
@@ -66,7 +66,7 @@
 
   export default {
     data() {
-      this.colors = ['#7db46d','#7db46d', '#7db46d',
+      this.colors = ['#0000ff','#0000ff', '#0000ff',
         '#546570', '#c4ccd3'];
       this.chartSettings = {
         yAxisType: ['normal'],

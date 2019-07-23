@@ -62,7 +62,7 @@
       height: 50px;
       .el-pager {
         .active {
-          background-color: @Ncolour !important;
+          background-color: @Ccolour !important;
         }
       }
       .el-pagination__jump {

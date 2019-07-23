@@ -10,10 +10,10 @@
 
     <div class="result">
       <ul>
-        <li>{{$t('cale.cale3')}}<label>{{parrakeInfo.day}} <span class="fCN">NULS</span></label></li>
-        <li>{{$t('cale.cale4')}}<label>{{parrakeInfo.week}} <span class="fCN">NULS</span></label></li>
-        <li>{{$t('cale.cale5')}}<label>{{parrakeInfo.month}} <span class="fCN">NULS</span></label></li>
-        <li>{{$t('cale.cale6')}}<label>{{parrakeInfo.year}} <span class="fCN">NULS</span></label></li>
+        <li>{{$t('cale.cale3')}}<label>{{parrakeInfo.day}} <span class="fCN">SAMO</span></label></li>
+        <li>{{$t('cale.cale4')}}<label>{{parrakeInfo.week}} <span class="fCN">SAMO</span></label></li>
+        <li>{{$t('cale.cale5')}}<label>{{parrakeInfo.month}} <span class="fCN">SAMO</span></label></li>
+        <li>{{$t('cale.cale6')}}<label>{{parrakeInfo.year}} <span class="fCN">SAMO</span></label></li>
       </ul>
     </div>
 
@@ -337,7 +337,7 @@
       }
     }
     .el-radio__input.is-checked + .el-radio__label {
-      color: @Ncolour !important;
+      color: @Ccolour !important;
     }
 
     @media screen and (max-width: 1000px) {

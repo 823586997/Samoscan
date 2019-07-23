@@ -42,7 +42,7 @@
                 </label>
               </template>
             </el-table-column>
-            <el-table-column prop="balance" :label="$t('public.balance')+'(NULS)'" width="130" align="left">
+            <el-table-column prop="balance" :label="$t('public.balance')+'(SAMO)'" width="130" align="left">
               <template slot-scope="scope">{{ scope.row.balance/100000000 }}</template>
             </el-table-column>
             <el-table-column prop="transferCount" :label="$t('public.transactionNo')" width="100"

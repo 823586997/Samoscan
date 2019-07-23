@@ -46,7 +46,7 @@
 </template>
 
 <script>
-  import logo from './../assets/img/logo-beta.svg'
+  import logo from './../assets/img/samos-logo.svg'
   import MenuBar from '@/components/MenuBar';
 
   export default {
@@ -196,7 +196,7 @@
         margin-right: 20px;
         .logo {
           width: 104px;
-          margin: 20px 0 0 0;
+          margin: 34px 0 0 0;
         }
       }
       .menu {
@@ -229,7 +229,7 @@
               line-height: 30px;
               &:focus {
                 width: 250px;
-                border-color: @Ncolour;
+                border-color: @Ccolour;
               }
             }
             .el-input__icon {

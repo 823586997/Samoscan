@@ -47,7 +47,7 @@
               <el-table-column prop="type" :label="$t('public.type')" width="180" align="left">
                 <template slot-scope="scope">{{$t('type.'+scope.row.type)}}</template>
               </el-table-column>
-              <el-table-column :label="$t('public.fee')+'(NULS)'" width="180" align="left">
+              <el-table-column :label="$t('public.fee')+'(SAMO)'" width="180" align="left">
                 <template slot-scope="scope">{{scope.row.fee.value/100000000}}</template>
               </el-table-column>
             </el-table>
