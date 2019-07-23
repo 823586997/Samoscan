@@ -1,22 +1,30 @@
-# NULS2.0 通用区块链浏览器模块
-依赖 api-module
+# wallet_2.0
 
-## Contribution
+## Project setup
+```
+npm install
+```
 
-Contributions to NULS are welcomed! We sincerely invite developers who experienced in blockchain field to join in NULS technology community. Details: s: https://nuls.communimunity/d/9-recruitment-of-community-developers To be a great community, Nuls needs to welcome developers from all walks of life, with different backgrounds, and with a wide range of experience.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## License
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Nuls is released under the [MIT](http://opensource.org/licenses/MIT) license.
-Modules added in the future may be release under different license, will specified in the module library path.
+### Run your tests
+```
+npm run test
+```
 
-## Community
+### Lints and fixes files
+```
+npm run lint
+```
 
-- [nuls.io](https://nuls.io/)
-- [@twitter](https://twitter.com/nulsservice)
-- [facebook](https://www.facebook.com/nulscommunity/)
-- [YouTube channel](https://www.youtube.com/channel/UC8FkLeF4QW6Undm4B3InN1Q?view_as=subscriber)
-- Telegram [NULS Community](https://t.me/Nulsio)
-- Telegram [NULS 中文社区](https://t.me/Nulscn)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
-####  
